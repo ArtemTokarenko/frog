@@ -39,7 +39,7 @@ throws ServletException, IOException{
 
             out.println("<img src='WEB-INF/images/w.jpg/'");
 
-            out.println("<title>Стили</title>");
+            out.println("<title>Стили1</title>");
 
             out.println("<link rel='stylesheet' type='text/css' href='mysite.css'>");
             out.println("<link rel='stylesheet' type='text/css' href='http://www.mysite.ru/main.css'>");
