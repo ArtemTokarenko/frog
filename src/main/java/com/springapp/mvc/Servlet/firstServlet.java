@@ -34,7 +34,7 @@ throws ServletException, IOException{
             out.println("<body>");
 
 
-            out.println("<h1>люби меня Суоми красавица "+ request.getContextPath()+"</h1>");
+            out.println("<h1>вася пупкин "+ request.getContextPath()+"</h1>");
 
 
             out.println("<img src='WEB-INF/images/w.jpg/'");
