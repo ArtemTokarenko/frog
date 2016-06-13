@@ -35,4 +35,31 @@ public class myService {
         return "ok";
 
     }
+    public int plus(int a,int b){
+        a=a+b;
+       return a;
+    }
+    public int minus(int a,int b){
+        a=a-b;
+        return a;
+    }
+    public int umnog(int a,int b){
+        if(a==0&&b==0){
+            a=0;
+            return a;
+        }
+        else
+        a=a*b;
+        return a;
+    }
+    public int del(int a,int b){
+        if(a==0&&b==0){
+            a=0;
+            return a;
+        }
+        else
+        a=a/b;
+        return a;
+    }
+
 }
